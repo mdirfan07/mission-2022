@@ -103,6 +103,26 @@ h3 {
     font-weight: 700;
 }
 
+.dev-shape {
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 15%;
+}
+
+.global-shape {
+    background-image: url(../images/shapes/shape-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 15%;
+}
+
+.app-shape {
+    background-image: url(../images/shapes/shape-3.png);
+    background-repeat: no-repeat;
+    background-size: 20%;
+}
+
 footer {
     width: 100%;
     background-color: black;
