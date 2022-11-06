@@ -12,6 +12,7 @@ body {
 
 .half-width {
     width: 50%;
+    margin-bottom: 5%;
 }
 
 .half-width img {
@@ -100,4 +101,17 @@ h4 {
 h3 {
     font-size: 36px;
     font-weight: 700;
+}
+
+footer {
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    left: 0;
+}
+
+.footer-line {
+    color: white;
+    font-family: 'Lobster', cursive;
+    text-align: center;
 }
