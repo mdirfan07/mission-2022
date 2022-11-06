@@ -3,7 +3,7 @@ font-family: 'Poppins', sans-serif;
 font-family: 'Yeseva One', cursive; */
 body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
+    margin: 0 5%;
 }
 
 .flex-container {
@@ -11,13 +11,14 @@ body {
 }
 
 .half-width {
-    width: 45%;
-    margin-left: 5%;
+    width: 50%;
 }
 
 .half-width img {
     width: 70%;
-    margin-left: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
 }
 
 h1 {
@@ -26,10 +27,12 @@ h1 {
     border-left: 4px solid #FF5959;
     padding-left: 13px;
 }
-p{
+
+p {
     color: #3E3E3E;
     padding: 10px 0;
 }
+
 .midnight-color {
     color: #13103A;
 }
@@ -49,7 +52,45 @@ p{
     border-radius: 5px;
 }
 
-h2{
+h2 {
     font-size: 48px;
     text-align: center;
+}
+
+.triple-card {
+    display: flex;
+}
+
+.triple-width {
+    width: 30%;
+    margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.triple-width img {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+h4{
+    font-size: 24px;
+    font-weight: 600;
+}
+#mission-card {
+    background: #4F9DA61A;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#vision-card {
+    background: #FF59591A;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+#goal-card {
+    background: #FFF4D6;
+    border-radius: 15px;
+    padding: 15px;
 }
